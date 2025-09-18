@@ -1,0 +1,29 @@
+{
+  "name": "tz-aware_events",
+  "version": "1.0.0",
+  "description": "An event scheduler with cross-timezone consistency",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulbaasiterinkitola/tz-aware_events.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulbaasiterinkitola/tz-aware_events/issues"
+  },
+  "homepage": "https://github.com/Abdulbaasiterinkitola/tz-aware_events#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "luxon": "^3.7.2",
+    "mongoose": "^8.18.1",
+    "winston": "^3.17.0"
+  }
+}
