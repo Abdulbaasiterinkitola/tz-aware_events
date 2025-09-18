@@ -13,8 +13,12 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/events", eventRouter);
 
-connectDB().then(() => {    
-    
+app.get('/', (req, res) => {
+  res.redirect('/api/v1/events');
+});
+
+connectDB().then(() => {
+
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`);
     });
